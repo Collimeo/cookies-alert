@@ -1,0 +1,32 @@
+.cookie {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    width: 100vw;
+    background: rgb(255, 255, 255);
+    height: auto;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    z-index: 10000;
+}
+
+.cookie__text {
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+#cookie__close,
+ #cookie__info {
+    display:  inline-block;
+    margin: auto 1rem;
+    cursor: pointer;
+    color: #0c709e;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#cookie__close:hover, 
+#cookie__info:hover {
+    color: rgba(118, 205, 255, 0.7)
+}
